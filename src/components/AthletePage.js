@@ -30,7 +30,7 @@ export default class AthletePage extends React.Component {
           <section className="medals">
             <p>Winner of <strong>{athlete.medals.length}</strong> medals:</p>
             <ul>{
-              athlete.medal.map((medal, i) => <Medal key={i} {...medal} />)
+              athlete.medals.map((medal, i) => <Medal key={i} {...medal} />)
             }</ul>
           </section>
         </div>
